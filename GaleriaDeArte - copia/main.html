@@ -3,76 +3,92 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Slider de imagenes con puro CSS - MagtimusPro</title>
+    <title>Galeria De Arte</title>
     <link rel="stylesheet" href="main.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap" rel="stylesheet">
 </head>
 
 <body>
-<iframe  id="encabezado" src="navegador.html" frameBorder="0"></iframe>
+    <iframe id="encabezado" src="navegador.html" frameBorder="0"></iframe>
 
-<div class="elSlider">
+    <div class="elSlider">
 
-    <input type="radio" id="1" name="image-slide" hidden/>
-    <input type="radio" id="2" name="image-slide" hidden/>
-    <input type="radio" id="3" name="image-slide" hidden/>
+        <input type="radio" id="1" name="image-slide" hidden />
+        <input type="radio" id="2" name="image-slide" hidden />
+        <input type="radio" id="3" name="image-slide" hidden />
 
-    <div class="slide">
-        <div class="item-slide">
+        <div class="slide">
+            <div class="item-slide">
 
-            <img src="Imagenes/img1.jpg">
+                <img src="Imagenes/img1.jpg">
+            </div>
+
+            <div class="item-slide">
+                <img src="Imagenes/img2.jpg">
+            </div>
+
+            <div class="item-slide">
+                <img src="Imagenes/img3.jpg">
+            </div>
         </div>
 
-        <div class="item-slide">
-            <img src="Imagenes/img2.jpg">
+        <div class="pagination">
+
+            <label class="pagination-item" for="1">
+                <img src="Imagenes/img1.jpg">
+            </label>
+
+            <label class="pagination-item" for="2">
+                <img src="Imagenes/img2.jpg">
+            </label>
+
+            <label class="pagination-item" for="3">
+                <img src="Imagenes/img3.jpg">
+            </label>
+
         </div>
 
-        <div class="item-slide">
-            <img src="Imagenes/img3.jpg">
+    </div>
+    <div id="temporadaActual">
+        <h2 id="NombreTemporadaActual"> Nombre De La Temporada Actual</h2>
+        <div id="contenedorCaracteristicasTemporada">Esta temporada se caracteriza por los colores rojos, el estilo
+            antiguo y su gran cantidad de inserte mucho texto ....<br><a href=”link”>Ver Ofertas</a></div>
+
+        <div id="imagenes">
+            <img id="imagen1" src="Imagenes/laUltimaCena.jpg">
+            <img id="imagen2" src="Imagenes/guernica.jpg">
         </div>
     </div>
+    <footer>
+        <div id="informacionFooter" class="cajaEnFooter">
+            <p id="tituloFooder">La Galería De Arte </p>
+        </div>
+        <div id="seccionesPaginaFooter" class="cajaEnFooter">
+            <ul id="seccionesPagina">
+                <li><a href="">
+                        <p>Obras</p>
+                    </a></li>
+                <li><a href="">
+                        <p>Temporada</p>
+                    </a></li>
+                <li><a href="">
+                        <p>Exhibición</p>
+                    </a></li>
+            </ul>
+        </div>
+        <div id="TextoFooter" class="cajaEnFooter">
+            <p>Bienvenido a La Galeria De Arte</p>
+            <p>La Galeria De Arte es una plataforma que conecta artistas con personas interesadas en arte. Es una
+                iniciativa que busca visibilizar y fomentar el arte independiente.
 
-    <div class="pagination">
-
-        <label class="pagination-item" for="1">
-            <img src="Imagenes/img1.jpg">
-        </label>
-
-        <label class="pagination-item" for="2">
-            <img src="Imagenes/img2.jpg">
-        </label>
-
-        <label class="pagination-item" for="3">
-            <img src="Imagenes/img3.jpg">
-        </label>
-
-    </div>
-
-</div>
-<div id="temporadaActual" >
-    <h2 id="NombreTemporadaActual" > Nombre De La Temporada Actual</h2>
-    <div id="contenedorCaracteristicasTemporada">Esta temporada se caracteriza por los colores rojos, el estilo antiguo y su gran cantidad de inserte mucho texto ....<br><a href=”link”>Ver Ofertas</a></div>
-
-    <div id="imagenes">
-        <img id="imagen1" src="Imagenes/laUltimaCena.jpg">
-        <img id="imagen2" src="Imagenes/guernica.jpg">
-    </div>
-</div>
-<footer>
-    <div id="informacionFooter" class="cajaEnFooter" ><p id="tituloFooder">La Galería De Arte </p></div>
-    <div id="seccionesPaginaFooter" class="cajaEnFooter">
-        <ul id="seccionesPagina">
-            <li><a href=""><p>Obras</p></a></li>
-            <li><a href=""><p>Temporada</p></a></li>
-            <li><a href=""><p>Exhibición</p></a></li>
-        </ul>
-    </div>
-    <div id="TextoFooter" class="cajaEnFooter"  ><p>Bienvenido a La Galeria De Arte</p><p>La Galeria De Arte es una plataforma que conecta artistas con personas interesadas en arte. Es una iniciativa que busca visibilizar y fomentar el arte independiente.
-
-        A través de la tecnología logramos que más artistas puedan mostrar y vender su trabajo y gente que quiere comprar arte original a su alcance, pueda hacerlo de manera fácil y segura para recibirlo así en su casa.</p></div>
-</footer>
+                A través de la tecnología logramos que más artistas puedan mostrar y vender su trabajo y gente que
+                quiere comprar arte original a su alcance, pueda hacerlo de manera fácil y segura para recibirlo así en
+                su casa.</p>
+        </div>
+    </footer>
 
 
 </body>

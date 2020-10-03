@@ -1,0 +1,44 @@
+
+
+body
+{
+    background-color: #edbc5c;
+}
+
+#encabezado
+{
+    width: calc(100%);
+    height: fit-content;
+    margin-bottom: 10px;
+    height: fit-content;
+}
+
+#contenedor
+{
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    height: 100%;
+    background-color: #FEF9E6;
+}
+
+#obraPicture
+{
+    max-width: 20%;
+    max-height: 25%;
+    margin-top: 7%;
+    margin-left: 5%;
+    margin-bottom: 20%;
+}
+
+#tituloObra
+{
+    float: right;
+    font-family: 'Lobster', cursive;
+    margin-top: 7%;
+    margin-right: 40%;
+    font-size: 2.5em;
+
+}
