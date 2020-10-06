@@ -20,12 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71b604c0-423f-4102-8813-cad3fa0f7a29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/subastaActualStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagenes/img1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagenes/img2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagenes/img3.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subasta.html" beforeDir="false" afterPath="$PROJECT_DIR$/SubastaActual.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footerStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/footerStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navegadorStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/navegadorStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subastaAStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imagenes/img1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Imagenes/img1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imagenes/img2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Imagenes/img2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imagenes/img3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Imagenes/img3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,12 +46,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1iWGpREO275CYTqDFWWdxSYcxdq" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -71,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602016116429</updated>
-      <workItem from="1602016117467" duration="6215000" />
+      <workItem from="1602016117467" duration="6755000" />
     </task>
     <servers />
   </component>
@@ -88,5 +93,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
