@@ -1,0 +1,200 @@
+body
+{
+    background-color: #fae8a0;
+}
+.rect1{
+    position: absolute;
+    top: 3%;
+    left: 4%;
+    width: 20%; 
+    height: 50%;
+    border-radius: 2%;
+    background:#edbc5c;
+    z-index: -9;
+}
+.FotoAutor{
+    position: absolute;
+    top: 5%;
+    left:5%;
+    width: 18%; 
+    z-index: -8;
+    border-radius: 2%;
+}
+.NombreAutor{
+    position: absolute;
+    top: 10%;
+    left:27%;
+    font-family:  'Playfair Display', serif;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 0.8pt;
+    word-spacing: 8.6pt;
+    line-height: 1.1;
+    color: #380101;
+    text-align: center;
+    z-index: -8;
+}
+.DatosAutor{
+    position: absolute;
+    top: 21%;
+    left:27%;
+    font-family:  'Playfair Display', serif;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 0.8pt;
+    word-spacing: 8.6pt;
+    line-height: 1.1;
+    color: #380101;
+    text-align: left;
+    z-index: -8;
+}
+.rect2{
+    position: absolute;
+    top: 58%;
+    left: 0%;
+    width: 100%; 
+    height: 150%;
+    background:#edbc5c;
+    z-index: -9;
+}
+.rect3{
+    position: absolute;
+    top: 58%;
+    left: 0%;
+    width: 100%; 
+    height: 2%;
+    background:#380101;
+    z-index: -9;
+}
+.rect4{
+    position: absolute;
+    top: 21%;
+    left: 27%;
+    width: 30%; 
+    height: 0.5%;
+    background:#380101;
+    z-index: -9;
+}
+.rect5{
+    position: absolute;
+    top: 105%;
+    left: 0%;
+    width: 100%; 
+    height: 2%;
+    background:#380101;
+    z-index: -9;
+}
+.rect6{
+    position: absolute;
+    top: 150%;
+    left: 0%;
+    width: 100%; 
+    height: 2%;
+    background:#380101;
+    z-index: -9;
+}
+.rect7{
+    position: absolute;
+    top: 195%;
+    left: 0%;
+    width: 100%; 
+    height: 2%;
+    background:#380101;
+    z-index: -9;
+}
+.Obra1{
+    position: absolute;
+    top: 65%;
+    left: 52%;
+    height: 35%;
+}
+.Obra2{
+    position: absolute;
+    top: 110%;
+    left: 52%;
+    height: 35%;
+}
+.Obra3{
+    position: absolute;
+    top: 155%;
+    left: 52%;
+    height: 35%;
+}
+.MasObra{
+    position: absolute;
+    top: 200%;
+    left: 47%;
+    height: 5%;
+}
+.Datos1{
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    font-family:  'Playfair Display', serif;
+    font-size: 20px;
+    letter-spacing: 0.8pt;
+    word-spacing: 8.6pt;
+    line-height: 1.1;
+    color: #380101;
+    text-align: Left;
+}
+.Datos2{
+    position: absolute;
+    top: 115%;
+    left: 5%;
+    font-family:  'Playfair Display', serif;
+    font-size: 20px;
+    letter-spacing: 0.8pt;
+    word-spacing: 8.6pt;
+    line-height: 1.1;
+    color: #380101;
+    text-align: Left;
+}
+.Datos3{
+    position: absolute;
+    top: 160%;
+    left: 5%;
+    font-family:  'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.8pt;
+    word-spacing: 8.6pt;
+    line-height: 1.1;
+    color: #380101;
+    text-align: Left;
+}
+.rect8{
+    position: absolute;
+    top: 64%;
+    left: 51%;
+    height: 37%;
+    width: 13.5%;
+    background:#380101;
+    z-index: -9;
+}
+.rect9{
+    position: absolute;
+    top: 109%;
+    left: 51%;
+    height: 37%;
+    width: 25%;
+    background:#380101;
+    z-index: -9;
+}
+.rect10{
+    position: absolute;
+    top: 154%;
+    left: 51%;
+    height: 37%;
+    width: 29%;
+    background:#380101;
+    z-index: -9;
+}
+.logo1{
+    position: absolute;
+    top: 8%;
+    left: 85%;
+    height: 20%;
+    color:#380101;
+    
+}
